@@ -1,5 +1,6 @@
 sudo apt-get update
 sudo apt install gedit
+sudo apt install rar
 gedit ~/.bashrc
 
 alias burb='cd /home/citrix/burb ; java -javaagent:BurpSuiteLoader_v2020.11.3.jar -noverify -jar burpsuite_pro_v2020.11.3.jar'
