@@ -4,6 +4,8 @@ sudo apt install rar
 sudo apt install vlc
 sudo apt install apktool
 sudo apt install nmap
+sudo apt install git
+
 
 
 gedit ~/.bashrc
