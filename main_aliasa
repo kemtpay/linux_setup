@@ -10,4 +10,14 @@ sudo apt install git
 
 gedit ~/.bashrc
 
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
 alias burb='cd /home/citrix/burb ; java -javaagent:BurpSuiteLoader_v2020.11.3.jar -noverify -jar burpsuite_pro_v2020.11.3.jar'
+alias n='nano '
+alias s='sudo -i'
+alias c='clear'
+alias p='poweroff'
+alias h='cd /home'
+export PATH=$PATH:/opt/lampp/bin 
+alias mysql=/opt/lampp/bin/mysql
