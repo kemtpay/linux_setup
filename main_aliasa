@@ -20,4 +20,5 @@ alias c='clear'
 alias p='poweroff'
 alias h='cd /home'
 export PATH=$PATH:/opt/lampp/bin 
-alias mysql=/opt/lampp/bin/mysql
+
+alias mysql="export PATH=$PATH:/opt/lampp/bin; mysql -h 127.0.0.1  -u root"
