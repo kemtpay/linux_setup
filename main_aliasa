@@ -5,8 +5,7 @@ sudo apt install vlc
 sudo apt install apktool
 sudo apt install nmap
 sudo apt install git
-
-
+sudo apt install scrcpy
 
 gedit ~/.bashrc
 
@@ -22,3 +21,12 @@ alias h='cd /home'
 export PATH=$PATH:/opt/lampp/bin 
 
 alias mysql="export PATH=$PATH:/opt/lampp/bin; mysql -h 127.0.0.1  -u root"
+
+
+
+
+sudo apt install python3-pip
+python3 -m pip install --upgrade pip
+pip install colorama prompt-toolkit pygments
+python3 -m pip install frida-tools
+python3 -pip install frida
