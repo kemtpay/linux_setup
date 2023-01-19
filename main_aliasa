@@ -7,6 +7,10 @@ sudo apt install nmap
 sudo apt install git
 sudo apt install scrcpy
 
+sudo rm /etc/apt/preferences.d/nosnap.pref
+sudo apt update
+sudo apt install snapd
+sudo snap install cherrytree
 gedit ~/.bashrc
 
 alias ll='ls -alF'
