@@ -6,6 +6,7 @@ sudo apt install apktool
 sudo apt install nmap
 sudo apt install git
 sudo apt install scrcpy
+sudo apt install aria2
 
 sudo rm /etc/apt/preferences.d/nosnap.pref
 sudo apt update
